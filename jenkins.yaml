@@ -9,6 +9,7 @@ jenkins:
           - "louis"
           name: "admin"
           pattern: ".*"
+          description: "Marvin master"
           permissions:
           - "Job/Move"
           - "Job/Build"
@@ -48,6 +49,7 @@ jenkins:
           - "i_dont_know"
           name: "ape"
           pattern: ".*"
+          description: "Pedagogical team member"
           permissions:
           - "Job/Cancel"
           - "Job/Build"
@@ -59,6 +61,7 @@ jenkins:
           - "nasso"
           name: "assist"
           pattern: ".*"
+          description: "Assistant"
           permissions:
           - "Job/Workspace"
           - "View/Read"
@@ -68,6 +71,7 @@ jenkins:
           - "vaugie_g"
           name: "gorilla"
           pattern: ".*"
+          description: "Group Obsessively Researching Innovation Linked to Learning and Accomplishment"
           permissions:
           - "Job/Move"
           - "Job/Build"
